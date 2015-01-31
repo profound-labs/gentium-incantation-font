@@ -15,3 +15,10 @@ The Gentium font extended with cantillation marks
 - `m.cDown`
 - `M.cDown`
 
+## Sylistic Set 02
+
+Decorative forms
+
+- `bracketleft.ss02`
+- `bracketright.ss02`
+
