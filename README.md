@@ -7,13 +7,13 @@ The Gentium font extended with cantillation marks
 - `U+F010`, High Tone
 - `U+F011`, Low Tone
 - `U+F012`, Long Low Tone
+- `U+F013`, Long Up Tone
 
 ## Ligatures
 
-- `i.cDown`
-- `i.CUp`
-- `m.cDown`
-- `M.cDown`
+- [x] `i.cDown`, [x] `i.cUp`, [ ] `i.cLongDown`, [ ] `i.cLongUp`,
+- [x] `m.cDown`, [ ] `m.cUp`, [ ] `m.cLongDown`, [ ] `m.cLongUp`,
+- [x] `M.cDown`, [ ] `M.cUp`, [ ] `M.cLongDown`, [ ] `M.cLongUp`,
 
 ## Sylistic Set 02
 
