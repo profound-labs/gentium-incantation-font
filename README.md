@@ -12,7 +12,7 @@ The Gentium font extended with cantillation marks
 ## Ligatures
 
 - [x] `i.cDown`, [x] `i.cUp`, [ ] `i.cLongDown`, [ ] `i.cLongUp`,
-- [ ] `ī.cDown`, [ ] `ī.cUp`, [ ] `ī.cLongDown`, [ ] `ī.cLongUp`,
+- [x] `ī.cDown`, [x] `ī.cUp`, [ ] `ī.cLongDown`, [ ] `ī.cLongUp`,
 - [x] `m.cDown`, [ ] `m.cUp`, [ ] `m.cLongDown`, [ ] `m.cLongUp`,
 - [x] `M.cDown`, [ ] `M.cUp`, [ ] `M.cLongDown`, [ ] `M.cLongUp`,
 
