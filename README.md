@@ -7,7 +7,7 @@ This font adds arrow-shaped cantillation marks:
 
 ![cantillation marks][marks]
 
-[marks]: (https://raw.githubusercontent.com/profound-labs/gentium-incantation-font/master/img/yo-so-bhagava.png)
+[marks]: http://profound-labs.github.io/gentium-incantation-font/img/yo-so-bhagava.png
 
 Without the font (but typing the correct Unicode letters) the marks simply show up as the default bar shapes:
 
