@@ -1,11 +1,13 @@
 # Gentium Incantation
 
 The Gentium font extended with cantillation marks for the
-[Community Chanting Book][1] (Buddhist Pali Chanting).
+[Community Chanting Book][chanting-book] (Buddhist Pali Chanting).
 
 This font adds arrow-shaped cantillation marks:
 
-[cantillation marks](https://raw.githubusercontent.com/profound-labs/gentium-incantation-font/master/img/yo-so-bhagava.png)
+![cantillation marks][marks]
+
+[marks]: (https://raw.githubusercontent.com/profound-labs/gentium-incantation-font/master/img/yo-so-bhagava.png)
 
 Without the font (but typing the correct Unicode letters) the marks simply show up as the default bar shapes:
 
@@ -39,7 +41,7 @@ Without the font, the marks will simply show up as the default bar shapes.
 ## Unicode codepoints
 
 The marks are implemented in the Unicode range for
-[Modifier Tone Letters][2], using the codepoints for 'Left-stem tone
+[Modifier Tone Letters][tone-letters], using the codepoints for 'Left-stem tone
 letters'.
 
 - `U+A712`, `꜒` Long High Tone
@@ -68,7 +70,7 @@ Decorative forms
 - `bracketleft.ss02`
 - `bracketright.ss02`
 
-[1]: https://github.com/profound-labs/community-chanting-book
+[chanting-book]: https://github.com/profound-labs/community-chanting-book
 
-[2]: https://en.wikipedia.org/wiki/Modifier_Tone_Letters_(Unicode_block)
+[tone-letters]: https://en.wikipedia.org/wiki/Modifier_Tone_Letters_(Unicode_block)
 
