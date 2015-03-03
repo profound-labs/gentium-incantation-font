@@ -14,10 +14,10 @@ Without the font (but typing the correct Unicode letters) the marks simply show 
     [Yo so] bha꜕gavā a꜕rahaṃ sammāsambuddho
     Svākkhā꜓to yena bha꜕gava꜓tā dhammo
 
-- *Portability between people.* Copying or editing marks is not
+- **Portability between people.** Copying or editing marks is not
   dependent on whether this font is installed.
-- *Readability.* The marks are not interfering with the Pali accents.
-- *Portability between software.* Using Unicode codepoints avoids corruption of the text
+- **Readability.** The marks are not interfering with the Pali accents.
+- **Portability between software.** Using Unicode codepoints avoids corruption of the text
   when passed around between different software.
 
 Copy list:
