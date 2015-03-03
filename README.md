@@ -3,6 +3,15 @@
 The Gentium font extended with cantillation marks for the
 [Community Chanting Book][1] (Buddhist Pali Chanting).
 
+This font adds arrow-shaped cantillation marks:
+
+[cantillation marks](https://raw.githubusercontent.com/profound-labs/gentium-incantation-font/master/img/yo-so-bhagava.png)
+
+Without the font (but typing the correct Unicode letters) the marks simply show up as the default bar shapes:
+
+    [Yo so] bha꜕gavā a꜕rahaṃ sammāsambuddho
+    Svākkhā꜓to yena bha꜕gava꜓tā dhammo
+
 - *Portability between people.* Copying or editing marks is not
   dependent on whether this font is installed.
 - *Readability.* The marks are not interfering with the Pali accents.
@@ -11,7 +20,8 @@ The Gentium font extended with cantillation marks for the
 
 Copy list:
 
-    ꜒ ꜓ ꜕ ꜖
+    up long: ꜒ up: ꜓ down: ꜕ down long: ꜖
+    
     ā ī ū ṃ ṅ ñ ṭ ḍ ṇ ḷ
     Ā Ī Ū Ṃ Ṅ Ñ Ṭ Ḍ Ṇ Ḷ
 
