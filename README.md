@@ -22,7 +22,7 @@ Without the font (but typing the correct Unicode letters) the marks simply show 
 
 Copy list:
 
-    up long: ꜒ up: ꜓ down: ꜕ down long: ꜖
+    up: ꜓ down: ꜕ up long: ꜒ down long: ꜖
     
     ā ī ū ṃ ṅ ñ ṭ ḍ ṇ ḷ
     Ā Ī Ū Ṃ Ṅ Ñ Ṭ Ḍ Ṇ Ḷ
@@ -35,8 +35,6 @@ the marks will simply display as the default bar shapes.
 Using the above letters and marks chanting texts can be opened, copied and edited
 even when this font is missing, or can't be applied (copying in email,
 or missing fonts on other people's computers).
-
-Without the font, the marks will simply show up as the default bar shapes.
 
 ## Unicode codepoints
 
