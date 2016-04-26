@@ -1,0 +1,162 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{xcolor}
+\usepackage{calc}
+%\usepackage{tabular}
+\usepackage{multicol}
+\usepackage{tikz}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX}}
+
+\setmainfont[
+  Path = {../../},% project root
+  ItalicFont = GentiumIncantation-Italic.ttf,
+  StylisticSet=2,
+]{GentiumIncantation-Regular.ttf}
+\setmonofont{Ubuntu Mono}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+\usepackage[final]{microtype}
+
+% Copy list
+%
+% up: ꜓ down: ꜕ up long: ꜒ down long: ꜖
+%    
+% ā ī ū ṃ ṅ ñ ṭ ḍ ṇ ḷ
+% Ā Ī Ū Ṃ Ṅ Ñ Ṭ Ḍ Ṇ Ḷ
+%
+% a ā i ī u ū e o ṃ / ṁ k kh g gh ṅ c ch j jh ñ ṭ ṭh ḍ ḍh ṇ t th d dh n p ph b bh m y r l ḷ v s h
+% 
+% A Ā I Ī U Ū E O Ṃ / Ṁ K KH G GH Ṅ C CH J JH Ñ Ṭ ṬH Ḍ ḌH Ṇ T TH D DH N P PH B BH M Y R L Ḷ V S H
+%
+% abcdefghikjlmnopqrstuvwxyz
+% 
+% ABCDEFGHIKJLMNOPQRSTUVWXYZ
+
+\newlength\vruleHeight
+\setlength{\vruleHeight}{100pt}
+
+\newcommand\vr{\rule{0.1pt}{\vruleHeight}}
+
+\newcommand{\testrows}[3]{%
+\begin{multicols}{2}
+
+{\raggedright
+
+\foreach \c in {#1}
+{%
+  \foreach \m in {꜕,꜓,꜖,꜒}
+  {%
+    #2\c\m #3\hspace*{1em}
+  }
+  \linebreak
+}
+
+}
+
+\end{multicols}
+}
+
+\begin{document}
+
+\thispagestyle{empty}\mbox{}
+
+\section{Brackets}
+
+Taller brackets in Stylistic Set 2:
+
+[Yo so] bha꜕gavā a꜕rahaṃ sammāsambuddho\\
+Svākkhā꜓to yena bha꜕gava꜓tā dhammo
+
+\section{Ligatures for special width characters}
+
+% Test by drawing a vertical line -- when the characters are centered, the
+% cantillation marks should fall on the same line
+
+\begin{multicols}{2}
+  
+\setlength{\vruleHeight}{230pt}
+
+\begin{tabular}{cccc}
+\vr & \vr & \vr & \vr\vspace*{-\vruleHeight}\\
+i꜕ & i꜓ & i꜖ & i꜒\\
+ī꜕ & ī꜓ & ī꜖ & ī꜒\\
+e꜕ & e꜓ & e꜖ & e꜒\\
+m꜕ & m꜓ & m꜖ & m꜒\\
+ṃ꜕ & ṃ꜓ & ṃ꜖ & ṃ꜒\\
+t꜕ & t꜓ & t꜖ & t꜒\\
+ṭ꜕ & ṭ꜓ & ṭ꜖ & ṭ꜒\\
+l꜕ & l꜓ & l꜖ & l꜒\\
+ḷ꜕ & ḷ꜓ & ḷ꜖ & ḷ꜒\\
+I꜕ & I꜓ & I꜖ & I꜒\\
+Ī꜕ & Ī꜓ & Ī꜖ & Ī꜒\\
+M꜕ & M꜓ & M꜖ & M꜒\\
+Ṃ꜕ & Ṃ꜓ & Ṃ꜖ & Ṃ꜒\\
+\end{tabular}
+
+\columnbreak
+
+{\itshape
+
+\begin{tabular}{cccc}
+i꜕ & i꜓ & i꜖ & i꜒\\
+ī꜕ & ī꜓ & ī꜖ & ī꜒\\
+e꜕ & e꜓ & e꜖ & e꜒\\
+m꜕ & m꜓ & m꜖ & m꜒\\
+ṃ꜕ & ṃ꜓ & ṃ꜖ & ṃ꜒\\
+t꜕ & t꜓ & t꜖ & t꜒\\
+ṭ꜕ & ṭ꜓ & ṭ꜖ & ṭ꜒\\
+l꜕ & l꜓ & l꜖ & l꜒\\
+ḷ꜕ & ḷ꜓ & ḷ꜖ & ḷ꜒\\
+I꜕ & I꜓ & I꜖ & I꜒\\
+Ī꜕ & Ī꜓ & Ī꜖ & Ī꜒\\
+M꜕ & M꜓ & M꜖ & M꜒\\
+Ṃ꜕ & Ṃ꜓ & Ṃ꜖ & Ṃ꜒\\
+\end{tabular}
+
+}
+
+\end{multicols}
+
+\section{General a-width characters}
+
+\begin{multicols}{2}
+
+\begin{tabular}{cccc}
+a꜕ & a꜓ & a꜖ & a꜒\\
+o꜕ & o꜓ & o꜖ & o꜒\\
+u꜕ & u꜓ & u꜖ & u꜒\\
+n꜕ & n꜓ & n꜖ & n꜒\\
+\end{tabular}
+
+\columnbreak
+
+{\itshape
+
+\begin{tabular}{cccc}
+a꜕ & a꜓ & a꜖ & a꜒\\
+o꜕ & o꜓ & o꜖ & o꜒\\
+u꜕ & u꜓ & u꜖ & u꜒\\
+n꜕ & n꜓ & n꜖ & n꜒\\
+\end{tabular}
+
+}
+
+\end{multicols}
+
+\newpage
+
+\section{Complete Alphabet Test}
+
+\testrows{a,ā,i,ī,u,ū,e,o,ṃ,ṁ,k,g,ṅ,c,j,ñ,ṭ,ḍ,ṇ,t,d,n,p,b,m,y,r,l,ḷ,v,s,h}{n}{a}
+
+\testrows{kh,gh,ch,jh,ṭh,ḍh,th,dh,ph,bh}{n}{a}
+
+\testrows{A,Ā,I,Ī,U,Ū,E,O,Ṃ,Ṁ,K,G,Ṅ,C,J,Ñ,Ṭ,Ḍ,Ṇ,T,D,N,P,B,M,Y,R,L,Ḷ,V,S,H}{N}{A}
+
+\testrows{KH,GH,CH,JH,ṬH,ḌH,TH,DH,PH,BH}{N}{A}
+
+\end{document}
