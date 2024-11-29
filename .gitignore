@@ -1,8 +1,35 @@
-*.swp
-*~
-.*#
 *.sfd-[0-9]*
-*.aux
-*.out
-*.log
 sources/specimen/auto/
+
+# LaTeX temp files
+*.aux
+*.log
+*.toc
+*.lof
+*.fls
+*.fdb_latexmk
+*.out
+
+# Emacs temp files
+auto/
+.auctex-auto/
+*~
+\#*\#
+*.elc
+auto-save-list
+tramp
+.\#*
+.projectile
+TAGS
+
+# Vim temp files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*~
+tags
+
+# MacOS
+.DS_Store
+.idea

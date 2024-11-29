@@ -7,11 +7,11 @@ This font adds arrow-shaped cantillation marks:
 
 ![cantillation marks][marks]
 
-[marks]: http://profound-labs.github.io/gentium-incantation-font/img/yo-so-bhagava.png
+[marks]: https://profound-labs.github.io/gentium-incantation-font/img/yo-so-bhagava.png
 
 Without the font (but typing the correct Unicode letters) the marks simply show up as the default bar shapes:
 
-    [Yo so] bha꜕gavā a꜕rahaṃ sammāsambuddho
+    [Yo so] bha꜕gavā a꜕rahaṁ sammāsambuddho
     Svākkhā꜓to yena bha꜕gava꜓tā dhammo
 
 - **Portability between people.** Copying or editing marks is not
@@ -24,8 +24,8 @@ Copy list:
 
     up: ꜓ down: ꜕ up long: ꜒ down long: ꜖
     
-    ā ī ū ṃ ṅ ñ ṭ ḍ ṇ ḷ
-    Ā Ī Ū Ṃ Ṅ Ñ Ṭ Ḍ Ṇ Ḷ
+    ā ī ū ṁ ṃ ṅ ñ ṭ ḍ ṇ ḷ
+    Ā Ī Ū Ṁ Ṃ Ṅ Ñ Ṭ Ḍ Ṇ Ḷ
 
 Copy-paste the letters or use keyboard mappings. When using the
 Gentium Incantation font, you will see the marks as arrow
